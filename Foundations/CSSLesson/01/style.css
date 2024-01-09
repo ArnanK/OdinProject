@@ -1,0 +1,17 @@
+div{
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#subsection {
+    background-color: yellow;
+    color:blue;
+}
+
+.main #subsection {
+    color: red;
+}

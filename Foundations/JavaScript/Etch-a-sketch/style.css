@@ -1,0 +1,82 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF0F2;
+    color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    color: #1C1C1C;
+    background-color: #EEF0F2;
+    padding: 8px;
+    width: 13vh;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+button:hover{
+    width: 15vh;
+}
+
+button:active{
+    color: #EEF0F2;
+    background-color: #1C1C1C;
+}
+
+.top{
+    display:flex;
+}
+
+.content-container{
+    display:flex;
+    gap: 20px;
+}
+
+.sideboard{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 20vh;
+}
+.board{
+    display: grid;   
+    background-color: white;
+    box-shadow: 3px 3px 10px #1C1C1C;
+    height: 50vh;
+    width: 50vh;
+}
+
+.box{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.size{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.slider{
+    -webkit-appearance: none;
+    border-color:#1C1C1C;
+    border-style:solid;
+    border-width: 0.5px;
+    width: 13vh;
+    background-color: #EEF0F2;
+    border-radius: 8px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px; /* Set the width of the thumb */
+    height: 15px; /* Set the height of the thumb */
+    background-color: #020202; /* Change the background color of the thumb */
+    border-radius: 50%; /* Make it circular */
+    cursor: pointer;
+  }
